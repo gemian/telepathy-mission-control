@@ -50,7 +50,6 @@ configure
 cscope.out
 depcomp
 doc/mc-dbus-iface.html
-gtk-doc.make
 install-sh
 /lcov.html
 /lcov.info
