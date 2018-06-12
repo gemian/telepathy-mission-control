@@ -1,0 +1,86 @@
+Source: telepathy-mission-control-5
+Section: net
+Priority: optional
+Maintainer: Adam Boardman <adamboardman@gmail.com>
+XSBC-Original-Maintainer: Debian Telepathy maintainers <pkg-telepathy-maintainers@lists.alioth.debian.org>
+Uploaders: Sjoerd Simons <sjoerd@debian.org>,
+           Laurent Bigonville <bigon@debian.org>
+Build-Depends: debhelper (>= 10),
+               dh-apparmor,
+               dpkg-dev (>= 1.16.1~),
+               gtk-doc-tools,
+               libdbus-1-dev (>= 1.0),
+               libdbus-glib-1-dev (>= 0.82),
+               libglib2.0-dev (>= 2.46),
+               libnm-dev [linux-any],
+               libtelepathy-glib-dev (>= 0.20),
+               pkg-config,
+               python (>= 2.6),
+               xsltproc
+Standards-Version: 4.1.0
+Vcs-Git: https://anonscm.debian.org/git/pkg-telepathy/telepathy-mission-control-5.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-telepathy/telepathy-mission-control-5.git/
+Homepage: https://telepathy.freedesktop.org/wiki/
+
+Package: telepathy-mission-control-5
+Architecture: any
+Depends: libmission-control-plugins0 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Suggests: telepathy-haze
+Conflicts: telepathy-mission-control
+Description: management daemon for Telepathy real-time communication framework
+ Telepathy Mission Control 5 is an account manager and channel dispatcher for
+ the Telepathy framework, allowing user interfaces and other clients
+ to share connections to real-time communication services without conflicting.
+ It implements the AccountManager and ChannelDispatcher D-Bus APIs as described
+ by telepathy-spec.
+ .
+ The account manager part stores real time communication account details,
+ connects to the stored accounts on request, and sets the accounts' presence,
+ nickname and avatar according to requests from Telepathy user interfaces and
+ other components.
+ .
+ The channel dispatcher part responds to incoming communication channels
+ (message streams, voice/video calls, file transfers etc.) by dispatching
+ them to suitable user interfaces, and requests outgoing communication
+ channels according to requests from a Telepathy UI.
+ .
+ This is not a compatible replacement for Mission Control 4 (in the
+ telepathy-mission-control package), but they can be installed in parallel.
+
+Package: libmission-control-plugins0
+Architecture: any
+Multi-Arch: same
+Section: libs
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Recommends: telepathy-mission-control-5 (= ${binary:Version})
+Description: management daemon for Telepathy (library for plugins)
+ Telepathy Mission Control 5 is an account manager and channel dispatcher for
+ the Telepathy framework. This package contains a library against which plugins
+ for Mission Control must be linked.
+
+Package: libmission-control-plugins-dev
+Architecture: any
+Multi-Arch: same
+Section: libdevel
+Priority: extra
+Depends: libmission-control-plugins0 (= ${binary:Version}),
+         libtelepathy-glib-dev,
+         ${misc:Depends}
+Suggests: libmission-control-plugins-doc
+Description: management daemon for Telepathy (headers for plugins)
+ Telepathy Mission Control 5 is an account manager and channel dispatcher for
+ the Telepathy framework. This package contains development headers to build
+ plugins for Mission Control.
+
+Package: libmission-control-plugins-doc
+Architecture: all
+Section: doc
+Priority: extra
+Depends: ${misc:Depends}
+Description: management daemon for Telepathy (documentation for plugins)
+ Telepathy Mission Control 5 is an account manager and channel dispatcher for
+ the Telepathy framework. This package contains API documentation to build
+ plugins for Mission Control.

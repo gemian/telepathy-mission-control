@@ -48,7 +48,6 @@ config.status*
 config.sub*
 configure
 cscope.out
-debian
 depcomp
 doc/mc-dbus-iface.html
 gtk-doc.make

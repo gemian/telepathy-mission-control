@@ -1,0 +1,3 @@
+usr/include/mission-control-5.*/mission-control-plugins
+usr/lib/*/libmission-control-plugins.so
+usr/lib/*/pkgconfig/mission-control-plugins.pc
