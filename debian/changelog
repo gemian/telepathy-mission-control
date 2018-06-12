@@ -1,4 +1,4 @@
-telepathy-mission-control-5 (1:5.16.4-+gemian) buster; urgency=low
+telepathy-mission-control-5 (1:5.16.4+gemian) buster; urgency=low
 
   * Building for buster.
   * Adding ubuntu change:
