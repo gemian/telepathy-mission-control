@@ -12,14 +12,21 @@ AM_CFLAGS = $(ERROR_CFLAGS)
 
 EXTRA_DIST = org.freedesktop.Telepathy.MissionControl5.service.in \
 	     org.freedesktop.Telepathy.AccountManager.service.in \
+	     telepathy-mission-control-5.service.in \
 	     mission-control-5.8.in
 CLEANFILES = org.freedesktop.Telepathy.MissionControl5.service \
 	     org.freedesktop.Telepathy.AccountManager.service \
+	     telepathy-mission-control-5.service \
 	     mission-control-5.8
 
 servicefiledir=$(prefix)/share/dbus-1/services
 servicefile_DATA=org.freedesktop.Telepathy.MissionControl5.service \
 		 org.freedesktop.Telepathy.AccountManager.service
+
+systemd_user_unitdir = $(prefix)/lib/systemd/user
+systemd_user_unit_DATA = \
+	telepathy-mission-control-5.service \
+	$(NULL)
 
 %.service: %.service.in Makefile
 	$(AM_V_GEN)sed \
