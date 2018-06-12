@@ -1,0 +1,788 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>McpDispatchOperation: Mission Control Plugins Reference Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
+<link rel="home" href="index.html" title="Mission Control Plugins Reference Manual">
+<link rel="up" href="ch04.html" title="Channel dispatch operations">
+<link rel="prev" href="McpDispatchOperationPolicy.html" title="McpDispatchOperationPolicy">
+<link rel="next" href="object-tree.html" title="Object Hierarchy">
+<meta name="generator" content="GTK-Doc V1.25 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#McpDispatchOperation.description" class="shortcut">Description</a></span><span id="nav_hierarchy">  <span class="dim">|</span> 
+                  <a href="#McpDispatchOperation.object-hierarchy" class="shortcut">Object Hierarchy</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="ch04.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="McpDispatchOperationPolicy.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="object-tree.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="McpDispatchOperation"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="McpDispatchOperation.top_of_page"></a>McpDispatchOperation</span></h2>
+<p>McpDispatchOperation — Dispatch operation object, implemented by Mission Control</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="McpDispatchOperation.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_return">
+<col class="functions_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="function_type">
+<a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="McpDispatchOperation.html#mcp-dispatch-operation-find-channel-by-type" title="mcp_dispatch_operation_find_channel_by_type ()">mcp_dispatch_operation_find_channel_by_type</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="/usr/share/gtk-doc/html/telepathy-glibtelepathy-glib-connection.html#TpConnection-struct"><span class="returnvalue">TpConnection</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="McpDispatchOperation.html#mcp-dispatch-operation-ref-connection" title="mcp_dispatch_operation_ref_connection ()">mcp_dispatch_operation_ref_connection</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="/usr/share/gtk-doc/html/telepathy-glibtelepathy-glib-channel.html#TpChannel-struct"><span class="returnvalue">TpChannel</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="McpDispatchOperation.html#mcp-dispatch-operation-ref-nth-channel" title="mcp_dispatch_operation_ref_nth_channel ()">mcp_dispatch_operation_ref_nth_channel</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">const <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="McpDispatchOperation.html#mcp-dispatch-operation-get-account-path" title="mcp_dispatch_operation_get_account_path ()">mcp_dispatch_operation_get_account_path</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">const <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="McpDispatchOperation.html#mcp-dispatch-operation-get-connection-path" title="mcp_dispatch_operation_get_connection_path ()">mcp_dispatch_operation_get_connection_path</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">const <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="McpDispatchOperation.html#mcp-dispatch-operation-get-protocol" title="mcp_dispatch_operation_get_protocol ()">mcp_dispatch_operation_get_protocol</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">const <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="McpDispatchOperation.html#mcp-dispatch-operation-get-cm-name" title="mcp_dispatch_operation_get_cm_name ()">mcp_dispatch_operation_get_cm_name</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#guint"><span class="returnvalue">guint</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="McpDispatchOperation.html#mcp-dispatch-operation-get-n-channels" title="mcp_dispatch_operation_get_n_channels ()">mcp_dispatch_operation_get_n_channels</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">const <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="McpDispatchOperation.html#mcp-dispatch-operation-get-nth-channel-path" title="mcp_dispatch_operation_get_nth_channel_path ()">mcp_dispatch_operation_get_nth_channel_path</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="/usr/share/gtk-doc/html/glibglib-Hash-Tables.html#GHashTable"><span class="returnvalue">GHashTable</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="McpDispatchOperation.html#mcp-dispatch-operation-ref-nth-channel-properties" title="mcp_dispatch_operation_ref_nth_channel_properties ()">mcp_dispatch_operation_ref_nth_channel_properties</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="McpDispatchOperation.html#McpDispatchOperationDelay" title="McpDispatchOperationDelay"><span class="returnvalue">McpDispatchOperationDelay</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="McpDispatchOperation.html#mcp-dispatch-operation-start-delay" title="mcp_dispatch_operation_start_delay ()">mcp_dispatch_operation_start_delay</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="McpDispatchOperation.html#mcp-dispatch-operation-end-delay" title="mcp_dispatch_operation_end_delay ()">mcp_dispatch_operation_end_delay</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="McpDispatchOperation.html#mcp-dispatch-operation-leave-channels" title="mcp_dispatch_operation_leave_channels ()">mcp_dispatch_operation_leave_channels</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="McpDispatchOperation.html#mcp-dispatch-operation-close-channels" title="mcp_dispatch_operation_close_channels ()">mcp_dispatch_operation_close_channels</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="McpDispatchOperation.html#mcp-dispatch-operation-destroy-channels" title="mcp_dispatch_operation_destroy_channels ()">mcp_dispatch_operation_destroy_channels</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="McpDispatchOperation.other"></a><h2>Types and Values</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="name">
+<col class="description">
+</colgroup>
+<tbody><tr>
+<td class="datatype_keyword"> </td>
+<td class="function_name"><a class="link" href="McpDispatchOperation.html#McpDispatchOperationDelay" title="McpDispatchOperationDelay">McpDispatchOperationDelay</a></td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="McpDispatchOperation.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="screen">    <a href="https://developer.gnome.org/gobject/unstable/GTypeModule.html">GInterface</a>
+    <span class="lineart">╰──</span> McpDispatchOperation
+</pre>
+</div>
+<div class="refsect1">
+<a name="McpDispatchOperation.includes"></a><h2>Includes</h2>
+<pre class="synopsis">#include &lt;mission-control-plugins/mission-control-plugins.h&gt;
+</pre>
+</div>
+<div class="refsect1">
+<a name="McpDispatchOperation.description"></a><h2>Description</h2>
+<p>This object represents a Telepathy ChannelDispatchOperation object, as used
+by Approvers. A ChannelDispatchOperation represents a bundle of one or more
+Telepathy Channels being dispatched to user interfaces or other clients.</p>
+<p>The virtual method <code class="function">mcd_dispatch_operation_policy_check()</code> receives an object
+provided by Mission Control that implements this interface. It can be
+used to inspect the channels, delay dispatching of the bundle until the
+plugin is ready to continue, or close the channels in various ways.</p>
+<p>Only Mission Control should implement this interface.</p>
+</div>
+<div class="refsect1">
+<a name="McpDispatchOperation.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="mcp-dispatch-operation-find-channel-by-type"></a><h3>mcp_dispatch_operation_find_channel_by_type ()</h3>
+<pre class="programlisting"><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+mcp_dispatch_operation_find_channel_by_type
+                               (<em class="parameter"><code><a class="link" href="McpDispatchOperation.html" title="McpDispatchOperation"><span class="type">McpDispatchOperation</span></a> *self</code></em>,
+                                <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#guint"><span class="type">guint</span></a> start_from</code></em>,
+                                <em class="parameter"><code><a href="/usr/share/gtk-doc/html/telepathy-glibtelepathy-glib-enums.html#TpHandleType"><span class="type">TpHandleType</span></a> handle_type</code></em>,
+                                <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glibglib-Quarks.html#GQuark"><span class="type">GQuark</span></a> channel_type</code></em>,
+                                <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#guint"><span class="type">guint</span></a> *ret_index</code></em>,
+                                <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="type">gchar</span></a> **ret_dup_path</code></em>,
+                                <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glibglib-Hash-Tables.html#GHashTable"><span class="type">GHashTable</span></a> **ret_ref_immutable_properties</code></em>,
+                                <em class="parameter"><code><a href="/usr/share/gtk-doc/html/telepathy-glibtelepathy-glib-channel.html#TpChannel-struct"><span class="type">TpChannel</span></a> **ret_ref_channel</code></em>);</pre>
+<p>Attempt to find a channel matching the given handle type and channel type
+in the bundle. This is an easy way to test whether the bundle contains any
+channels of interest to a particular plugin.</p>
+<div class="refsect3">
+<a name="mcp-dispatch-operation-find-channel-by-type.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>self</p></td>
+<td class="parameter_description"><p>a dispatch operation</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>start_from</p></td>
+<td class="parameter_description"><p>index at which to start searching, usually 0</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>handle_type</p></td>
+<td class="parameter_description"><p>the handle type to match</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>channel_type</p></td>
+<td class="parameter_description"><p>the channel type to match</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>ret_index</p></td>
+<td class="parameter_description"><p>if not <a href="/usr/share/gtk-doc/html/glibglib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a>, used to return the index of the first matching
+channel, suitable for use with
+<a class="link" href="McpDispatchOperation.html#mcp-dispatch-operation-get-nth-channel-path" title="mcp_dispatch_operation_get_nth_channel_path ()"><code class="function">mcp_dispatch_operation_get_nth_channel_path()</code></a> etc.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>ret_dup_path</p></td>
+<td class="parameter_description"><p>if not <a href="/usr/share/gtk-doc/html/glibglib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a>, used to return the object path of the first
+matching channel, which must be freed with <a href="/usr/share/gtk-doc/html/glibglib-Memory-Allocation.html#g-free"><code class="function">g_free()</code></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>ret_ref_immutable_properties</p></td>
+<td class="parameter_description"><p>if not <a href="/usr/share/gtk-doc/html/glibglib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a>, used to return a reference to
+immutable properties, as if via
+<a class="link" href="McpDispatchOperation.html#mcp-dispatch-operation-ref-nth-channel-properties" title="mcp_dispatch_operation_ref_nth_channel_properties ()"><code class="function">mcp_dispatch_operation_ref_nth_channel_properties()</code></a>, which must be
+released with <a href="/usr/share/gtk-doc/html/glibglib-Hash-Tables.html#g-hash-table-unref"><code class="function">g_hash_table_unref()</code></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>ret_ref_channel</p></td>
+<td class="parameter_description"><p>if not <a href="/usr/share/gtk-doc/html/glibglib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a>, used to return a <a href="/usr/share/gtk-doc/html/telepathy-glibtelepathy-glib-channel.html#TpChannel-struct"><span class="type">TpChannel</span></a>, which is not
+guaranteed to be ready immediately, and must be released with
+<a href="/usr/share/gtk-doc/html/gobjectgobject-The-Base-Object-Type.html#g-object-unref"><code class="function">g_object_unref()</code></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="mcp-dispatch-operation-find-channel-by-type.returns"></a><h4>Returns</h4>
+<p> <a href="/usr/share/gtk-doc/html/glibglib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> if a matching channel was found, or <a href="/usr/share/gtk-doc/html/glibglib-Standard-Macros.html#FALSE:CAPS"><code class="literal">FALSE</code></a> (without touching
+<em class="parameter"><code>ret_index</code></em>
+, <em class="parameter"><code>ret_dup_path</code></em>
+, <em class="parameter"><code>ret_ref_immutable_properties</code></em>
+or
+<em class="parameter"><code>ret_ref_channel</code></em>
+) if not</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mcp-dispatch-operation-ref-connection"></a><h3>mcp_dispatch_operation_ref_connection ()</h3>
+<pre class="programlisting"><a href="/usr/share/gtk-doc/html/telepathy-glibtelepathy-glib-connection.html#TpConnection-struct"><span class="returnvalue">TpConnection</span></a> *
+mcp_dispatch_operation_ref_connection (<em class="parameter"><code><a class="link" href="McpDispatchOperation.html" title="McpDispatchOperation"><span class="type">McpDispatchOperation</span></a> *self</code></em>);</pre>
+<p>Return a <a href="/usr/share/gtk-doc/html/telepathy-glibtelepathy-glib-connection.html#TpConnection-struct"><span class="type">TpConnection</span></a> object. It is not guaranteed to be ready immediately;
+use <a href="/usr/share/gtk-doc/html/telepathy-glibtelepathy-glib-connection.html#tp-connection-call-when-ready"><code class="function">tp_connection_call_when_ready()</code></a>.</p>
+<div class="refsect3">
+<a name="mcp-dispatch-operation-ref-connection.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>self</p></td>
+<td class="parameter_description"><p>a dispatch operation</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="mcp-dispatch-operation-ref-connection.returns"></a><h4>Returns</h4>
+<p> a reference to a <a href="/usr/share/gtk-doc/html/telepathy-glibtelepathy-glib-connection.html#TpConnection-struct"><span class="type">TpConnection</span></a>, which must be released with
+<a href="/usr/share/gtk-doc/html/gobjectgobject-The-Base-Object-Type.html#g-object-unref"><code class="function">g_object_unref()</code></a> by the caller</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mcp-dispatch-operation-ref-nth-channel"></a><h3>mcp_dispatch_operation_ref_nth_channel ()</h3>
+<pre class="programlisting"><a href="/usr/share/gtk-doc/html/telepathy-glibtelepathy-glib-channel.html#TpChannel-struct"><span class="returnvalue">TpChannel</span></a> *
+mcp_dispatch_operation_ref_nth_channel
+                               (<em class="parameter"><code><a class="link" href="McpDispatchOperation.html" title="McpDispatchOperation"><span class="type">McpDispatchOperation</span></a> *self</code></em>,
+                                <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#guint"><span class="type">guint</span></a> n</code></em>);</pre>
+<p>Return a <a href="/usr/share/gtk-doc/html/telepathy-glibtelepathy-glib-channel.html#TpChannel-struct"><span class="type">TpChannel</span></a> object. It is not guaranteed to be ready immediately;
+use <a href="/usr/share/gtk-doc/html/telepathy-glibtelepathy-glib-channel.html#tp-channel-call-when-ready"><code class="function">tp_channel_call_when_ready()</code></a>.</p>
+<div class="refsect3">
+<a name="mcp-dispatch-operation-ref-nth-channel.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>self</p></td>
+<td class="parameter_description"><p>a dispatch operation</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>n</p></td>
+<td class="parameter_description"><p>index of the channel to inspect</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="mcp-dispatch-operation-ref-nth-channel.returns"></a><h4>Returns</h4>
+<p> a reference to a <a href="/usr/share/gtk-doc/html/telepathy-glibtelepathy-glib-channel.html#TpChannel-struct"><span class="type">TpChannel</span></a>, which must be released with
+<a href="/usr/share/gtk-doc/html/gobjectgobject-The-Base-Object-Type.html#g-object-unref"><code class="function">g_object_unref()</code></a> by the caller, or <a href="/usr/share/gtk-doc/html/glibglib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if <em class="parameter"><code>n</code></em>
+is too large</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mcp-dispatch-operation-get-account-path"></a><h3>mcp_dispatch_operation_get_account_path ()</h3>
+<pre class="programlisting">const <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *
+mcp_dispatch_operation_get_account_path
+                               (<em class="parameter"><code><a class="link" href="McpDispatchOperation.html" title="McpDispatchOperation"><span class="type">McpDispatchOperation</span></a> *self</code></em>);</pre>
+<p></p>
+<div class="refsect3">
+<a name="mcp-dispatch-operation-get-account-path.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>self</p></td>
+<td class="parameter_description"><p>a dispatch operation</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="mcp-dispatch-operation-get-account-path.returns"></a><h4>Returns</h4>
+<p> the D-Bus object path of the Account with which the channels are
+associated. The string is owned by <em class="parameter"><code>self</code></em>
+and must not be freed; it is
+only valid as long as a reference to <em class="parameter"><code>self</code></em>
+is held.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mcp-dispatch-operation-get-connection-path"></a><h3>mcp_dispatch_operation_get_connection_path ()</h3>
+<pre class="programlisting">const <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *
+mcp_dispatch_operation_get_connection_path
+                               (<em class="parameter"><code><a class="link" href="McpDispatchOperation.html" title="McpDispatchOperation"><span class="type">McpDispatchOperation</span></a> *self</code></em>);</pre>
+<p></p>
+<div class="refsect3">
+<a name="mcp-dispatch-operation-get-connection-path.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>self</p></td>
+<td class="parameter_description"><p>a dispatch operation</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="mcp-dispatch-operation-get-connection-path.returns"></a><h4>Returns</h4>
+<p> the D-Bus object path of the Connection with which the channels are
+associated. The string is owned by <em class="parameter"><code>self</code></em>
+and must not be freed; it is
+only valid as long as a reference to <em class="parameter"><code>self</code></em>
+is held.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mcp-dispatch-operation-get-protocol"></a><h3>mcp_dispatch_operation_get_protocol ()</h3>
+<pre class="programlisting">const <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *
+mcp_dispatch_operation_get_protocol (<em class="parameter"><code><a class="link" href="McpDispatchOperation.html" title="McpDispatchOperation"><span class="type">McpDispatchOperation</span></a> *self</code></em>);</pre>
+<p></p>
+<div class="refsect3">
+<a name="mcp-dispatch-operation-get-protocol.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>self</p></td>
+<td class="parameter_description"><p>a dispatch operation</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="mcp-dispatch-operation-get-protocol.returns"></a><h4>Returns</h4>
+<p> the Telepathy identifier for the protocol, such as 'jabber' or
+'icq' (the Protocol type in telepathy-spec). The string is owned by <em class="parameter"><code>self</code></em>
+and must not be freed; it is only valid as long as a reference to <em class="parameter"><code>self</code></em>
+is held.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mcp-dispatch-operation-get-cm-name"></a><h3>mcp_dispatch_operation_get_cm_name ()</h3>
+<pre class="programlisting">const <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *
+mcp_dispatch_operation_get_cm_name (<em class="parameter"><code><a class="link" href="McpDispatchOperation.html" title="McpDispatchOperation"><span class="type">McpDispatchOperation</span></a> *self</code></em>);</pre>
+<p></p>
+<div class="refsect3">
+<a name="mcp-dispatch-operation-get-cm-name.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>self</p></td>
+<td class="parameter_description"><p>a dispatch operation</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="mcp-dispatch-operation-get-cm-name.returns"></a><h4>Returns</h4>
+<p> the short name of the Telepathy connection manager, such as
+'gabble' or 'haze' (the Connection_Manager_Name type in telepathy-spec).
+The string is owned by <em class="parameter"><code>self</code></em>
+and must not be freed; it is only valid as
+long as a reference to <em class="parameter"><code>self</code></em>
+is held.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mcp-dispatch-operation-get-n-channels"></a><h3>mcp_dispatch_operation_get_n_channels ()</h3>
+<pre class="programlisting"><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#guint"><span class="returnvalue">guint</span></a>
+mcp_dispatch_operation_get_n_channels (<em class="parameter"><code><a class="link" href="McpDispatchOperation.html" title="McpDispatchOperation"><span class="type">McpDispatchOperation</span></a> *self</code></em>);</pre>
+<p></p>
+<div class="refsect3">
+<a name="mcp-dispatch-operation-get-n-channels.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>self</p></td>
+<td class="parameter_description"><p>a dispatch operation</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="mcp-dispatch-operation-get-n-channels.returns"></a><h4>Returns</h4>
+<p> the number of channels in this dispatch operation.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mcp-dispatch-operation-get-nth-channel-path"></a><h3>mcp_dispatch_operation_get_nth_channel_path ()</h3>
+<pre class="programlisting">const <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *
+mcp_dispatch_operation_get_nth_channel_path
+                               (<em class="parameter"><code><a class="link" href="McpDispatchOperation.html" title="McpDispatchOperation"><span class="type">McpDispatchOperation</span></a> *self</code></em>,
+                                <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#guint"><span class="type">guint</span></a> n</code></em>);</pre>
+<p></p>
+<div class="refsect3">
+<a name="mcp-dispatch-operation-get-nth-channel-path.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>self</p></td>
+<td class="parameter_description"><p>a dispatch operation</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>n</p></td>
+<td class="parameter_description"><p>index of the channel to inspect</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="mcp-dispatch-operation-get-nth-channel-path.returns"></a><h4>Returns</h4>
+<p> the D-Bus object path of the <em class="parameter"><code>n</code></em>
+'th channel (starting from 0), or
+<a href="/usr/share/gtk-doc/html/glibglib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if <em class="parameter"><code>n</code></em>
+is greater than or equal to
+<a class="link" href="McpDispatchOperation.html#mcp-dispatch-operation-get-n-channels" title="mcp_dispatch_operation_get_n_channels ()"><code class="function">mcp_dispatch_operation_get_n_channels()</code></a>.
+The string is owned by <em class="parameter"><code>self</code></em>
+and must not be freed; it is only valid as
+long as a reference to <em class="parameter"><code>self</code></em>
+is held.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mcp-dispatch-operation-ref-nth-channel-properties"></a><h3>mcp_dispatch_operation_ref_nth_channel_properties ()</h3>
+<pre class="programlisting"><a href="/usr/share/gtk-doc/html/glibglib-Hash-Tables.html#GHashTable"><span class="returnvalue">GHashTable</span></a> *
+mcp_dispatch_operation_ref_nth_channel_properties
+                               (<em class="parameter"><code><a class="link" href="McpDispatchOperation.html" title="McpDispatchOperation"><span class="type">McpDispatchOperation</span></a> *self</code></em>,
+                                <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#guint"><span class="type">guint</span></a> n</code></em>);</pre>
+<p>Return the immutable properties of the <em class="parameter"><code>n</code></em>
+'th channel (starting from 0), or
+<a href="/usr/share/gtk-doc/html/glibglib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if <em class="parameter"><code>n</code></em>
+ is greater than or equal to
+<a class="link" href="McpDispatchOperation.html#mcp-dispatch-operation-get-n-channels" title="mcp_dispatch_operation_get_n_channels ()"><code class="function">mcp_dispatch_operation_get_n_channels()</code></a>.</p>
+<p>The keys of the hash table are strings and the values are in <a href="/usr/share/gtk-doc/html/gobjectgobject-Generic-values.html#GValue"><span class="type">GValue</span></a>
+structures, using the same representation as dbus-glib, <a href="/usr/share/gtk-doc/html/telepathy-glibtelepathy-glib-asv.html#tp-asv-get-string"><code class="function">tp_asv_get_string()</code></a>
+etc. Do not add or remove entries in this hash table.</p>
+<div class="refsect3">
+<a name="mcp-dispatch-operation-ref-nth-channel-properties.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>self</p></td>
+<td class="parameter_description"><p>a dispatch operation</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>n</p></td>
+<td class="parameter_description"><p>index of the channel to inspect</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="mcp-dispatch-operation-ref-nth-channel-properties.returns"></a><h4>Returns</h4>
+<p> a reference to a hash table, which must be released with
+<a href="/usr/share/gtk-doc/html/glibglib-Hash-Tables.html#g-hash-table-unref"><code class="function">g_hash_table_unref()</code></a> by the caller</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mcp-dispatch-operation-start-delay"></a><h3>mcp_dispatch_operation_start_delay ()</h3>
+<pre class="programlisting"><a class="link" href="McpDispatchOperation.html#McpDispatchOperationDelay" title="McpDispatchOperationDelay"><span class="returnvalue">McpDispatchOperationDelay</span></a> *
+mcp_dispatch_operation_start_delay (<em class="parameter"><code><a class="link" href="McpDispatchOperation.html" title="McpDispatchOperation"><span class="type">McpDispatchOperation</span></a> *self</code></em>);</pre>
+<p>Start to delay the dispatch operation, for instance while waiting for
+an asynchronous operation to finish. The returned token must be passed to
+<a class="link" href="McpDispatchOperation.html#mcp-dispatch-operation-end-delay" title="mcp_dispatch_operation_end_delay ()"><code class="function">mcp_dispatch_operation_end_delay()</code></a> exactly once, at which point dispatching
+will continue and the token becomes invalid.</p>
+<p>This is similar to an Observer delaying the return from ObserveChannels,
+except that there is no time limit - a dispatch operation policy plugin
+can delay the dispatch operation indefinitely.</p>
+<div class="refsect3">
+<a name="mcp-dispatch-operation-start-delay.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>self</p></td>
+<td class="parameter_description"><p>a dispatch operation</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="mcp-dispatch-operation-start-delay.returns"></a><h4>Returns</h4>
+<p> a token which can be used to end the delay</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mcp-dispatch-operation-end-delay"></a><h3>mcp_dispatch_operation_end_delay ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+mcp_dispatch_operation_end_delay (<em class="parameter"><code><a class="link" href="McpDispatchOperation.html" title="McpDispatchOperation"><span class="type">McpDispatchOperation</span></a> *self</code></em>,
+                                  <em class="parameter"><code><a class="link" href="McpDispatchOperation.html#McpDispatchOperationDelay" title="McpDispatchOperationDelay"><span class="type">McpDispatchOperationDelay</span></a> *delay</code></em>);</pre>
+<p>Stop delaying the dispatch operation, allowing dispatching to proceed.</p>
+<div class="refsect3">
+<a name="mcp-dispatch-operation-end-delay.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>self</p></td>
+<td class="parameter_description"><p>a dispatch operation</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>delay</p></td>
+<td class="parameter_description"><p>a token obtained by calling <a class="link" href="McpDispatchOperation.html#mcp-dispatch-operation-start-delay" title="mcp_dispatch_operation_start_delay ()"><code class="function">mcp_dispatch_operation_start_delay()</code></a>
+on <em class="parameter"><code>self</code></em>
+previously</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mcp-dispatch-operation-leave-channels"></a><h3>mcp_dispatch_operation_leave_channels ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+mcp_dispatch_operation_leave_channels (<em class="parameter"><code><a class="link" href="McpDispatchOperation.html" title="McpDispatchOperation"><span class="type">McpDispatchOperation</span></a> *self</code></em>,
+                                       <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a> wait_for_observers</code></em>,
+                                       <em class="parameter"><code><a href="/usr/share/gtk-doc/html/telepathy-glibtelepathy-glib-enums.html#TpChannelGroupChangeReason"><span class="type">TpChannelGroupChangeReason</span></a> reason</code></em>,
+                                       <em class="parameter"><code>const <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *message</code></em>);</pre>
+<div class="warning">
+<p><code class="literal">mcp_dispatch_operation_leave_channels</code> has been deprecated since version 5.15.1 and should not be used in newly-written code.</p>
+<p>Use <a href="/usr/share/gtk-doc/html/telepathy-glibtelepathy-glib-call-channel.html#tp-call-channel-hangup-async"><code class="function">tp_call_channel_hangup_async()</code></a> to
+ hang up Call channels, <a class="link" href="McpDispatchOperation.html#mcp-dispatch-operation-close-channels" title="mcp_dispatch_operation_close_channels ()"><code class="function">mcp_dispatch_operation_close_channels()</code></a> to close
+ generic channels, or <a class="link" href="McpDispatchOperation.html#mcp-dispatch-operation-destroy-channels" title="mcp_dispatch_operation_destroy_channels ()"><code class="function">mcp_dispatch_operation_destroy_channels()</code></a> to
+ terminate the channel destructively.</p>
+</div>
+<p>Leave all channels in this bundle by using RemoveMembersWithReason if the
+channel has the Group interface, or Close if not.</p>
+<p>This method was intended for StreamedMedia channels, which (ab)used the
+Group interface for call control. StreamedMedia channels have been
+superseded by Call channels, which have a proper "hang up" method which
+should be used instead.</p>
+<div class="refsect3">
+<a name="mcp-dispatch-operation-leave-channels.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>self</p></td>
+<td class="parameter_description"><p>a dispatch operation</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>wait_for_observers</p></td>
+<td class="parameter_description"><p>if <a href="/usr/share/gtk-doc/html/glibglib-Standard-Macros.html#FALSE:CAPS"><code class="literal">FALSE</code></a>, leave the channels immediately; if <a href="/usr/share/gtk-doc/html/glibglib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a>
+(usually recommended), wait for Observers to reply first</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>reason</p></td>
+<td class="parameter_description"><p>the reason code to give</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>message</p></td>
+<td class="parameter_description"><p>a human-readable message provided by the user, or either the
+empty string or <a href="/usr/share/gtk-doc/html/glibglib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if no message has been provided</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mcp-dispatch-operation-close-channels"></a><h3>mcp_dispatch_operation_close_channels ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+mcp_dispatch_operation_close_channels (<em class="parameter"><code><a class="link" href="McpDispatchOperation.html" title="McpDispatchOperation"><span class="type">McpDispatchOperation</span></a> *self</code></em>,
+                                       <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a> wait_for_observers</code></em>);</pre>
+<p>Close all channels in this bundle by using the Close D-Bus method.</p>
+<p>Plugins that terminate an audio or audio/video call should
+use <a href="/usr/share/gtk-doc/html/telepathy-glibtelepathy-glib-call-channel.html#tp-call-channel-hangup-async"><code class="function">tp_call_channel_hangup_async()</code></a> instead.</p>
+<div class="refsect3">
+<a name="mcp-dispatch-operation-close-channels.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>self</p></td>
+<td class="parameter_description"><p>a dispatch operation</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>wait_for_observers</p></td>
+<td class="parameter_description"><p>if <a href="/usr/share/gtk-doc/html/glibglib-Standard-Macros.html#FALSE:CAPS"><code class="literal">FALSE</code></a>, close the channels immediately; if <a href="/usr/share/gtk-doc/html/glibglib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a>
+(usually recommended), wait for Observers to reply first</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mcp-dispatch-operation-destroy-channels"></a><h3>mcp_dispatch_operation_destroy_channels ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+mcp_dispatch_operation_destroy_channels
+                               (<em class="parameter"><code><a class="link" href="McpDispatchOperation.html" title="McpDispatchOperation"><span class="type">McpDispatchOperation</span></a> *self</code></em>,
+                                <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a> wait_for_observers</code></em>);</pre>
+<p>Close all channels in this bundle destructively, by using the Destroy D-Bus
+method if implemented, or the Close D-Bus method if not.</p>
+<p>Plugins that terminate an audio or audio/video call should
+use <a href="/usr/share/gtk-doc/html/telepathy-glibtelepathy-glib-call-channel.html#tp-call-channel-hangup-async"><code class="function">tp_call_channel_hangup_async()</code></a> instead.</p>
+<div class="refsect3">
+<a name="mcp-dispatch-operation-destroy-channels.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>self</p></td>
+<td class="parameter_description"><p>a dispatch operation</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>wait_for_observers</p></td>
+<td class="parameter_description"><p>if <a href="/usr/share/gtk-doc/html/glibglib-Standard-Macros.html#FALSE:CAPS"><code class="literal">FALSE</code></a>, close the channels immediately; if <a href="/usr/share/gtk-doc/html/glibglib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a>
+(usually recommended), wait for Observers to reply first</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="refsect1">
+<a name="McpDispatchOperation.other_details"></a><h2>Types and Values</h2>
+<div class="refsect2">
+<a name="McpDispatchOperationDelay"></a><h3>McpDispatchOperationDelay</h3>
+<pre class="programlisting">typedef struct _McpDispatchOperationDelay McpDispatchOperationDelay;</pre>
+</div>
+</div>
+<div class="refsect1">
+<a name="McpDispatchOperation.see-also"></a><h2>See Also</h2>
+<p><a class="link" href="McpDispatchOperationPolicy.html" title="McpDispatchOperationPolicy"><span class="type">McpDispatchOperationPolicy</span></a></p>
+</div>
+</div>
+<div class="footer">
+<hr>Generated by GTK-Doc V1.25</div>
+</body>
+</html>

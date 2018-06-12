@@ -1,0 +1,467 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>McpDispatchOperationPolicy: Mission Control Plugins Reference Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
+<link rel="home" href="index.html" title="Mission Control Plugins Reference Manual">
+<link rel="up" href="ch04.html" title="Channel dispatch operations">
+<link rel="prev" href="ch04.html" title="Channel dispatch operations">
+<link rel="next" href="McpDispatchOperation.html" title="McpDispatchOperation">
+<meta name="generator" content="GTK-Doc V1.25 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#McpDispatchOperationPolicy.description" class="shortcut">Description</a></span><span id="nav_hierarchy">  <span class="dim">|</span> 
+                  <a href="#McpDispatchOperationPolicy.object-hierarchy" class="shortcut">Object Hierarchy</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="ch04.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="ch04.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="McpDispatchOperation.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="McpDispatchOperationPolicy"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="McpDispatchOperationPolicy.top_of_page"></a>McpDispatchOperationPolicy</span></h2>
+<p>McpDispatchOperationPolicy — Dispatch Operation policy object, implemented by plugins</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="McpDispatchOperationPolicy.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_return">
+<col class="functions_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<span class="c_punctuation">(</span><a class="link" href="McpDispatchOperationPolicy.html#McpDispatchOperationPolicyCb" title="McpDispatchOperationPolicyCb ()">*McpDispatchOperationPolicyCb</a><span class="c_punctuation">)</span> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="McpDispatchOperationPolicy.html#mcp-dispatch-operation-policy-check" title="mcp_dispatch_operation_policy_check ()">mcp_dispatch_operation_policy_check</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<span class="c_punctuation">(</span><a class="link" href="McpDispatchOperationPolicy.html#McpDispatchOperationPolicyHandlerIsSuitableAsync" title="McpDispatchOperationPolicyHandlerIsSuitableAsync ()">*McpDispatchOperationPolicyHandlerIsSuitableAsync</a><span class="c_punctuation">)</span> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+</td>
+<td class="function_name">
+<span class="c_punctuation">(</span><a class="link" href="McpDispatchOperationPolicy.html#McpDispatchOperationPolicyFinisher" title="McpDispatchOperationPolicyFinisher ()">*McpDispatchOperationPolicyFinisher</a><span class="c_punctuation">)</span> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="McpDispatchOperationPolicy.html#mcp-dispatch-operation-policy-handler-is-suitable-async" title="mcp_dispatch_operation_policy_handler_is_suitable_async ()">mcp_dispatch_operation_policy_handler_is_suitable_async</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="McpDispatchOperationPolicy.html#mcp-dispatch-operation-policy-handler-is-suitable-finish" title="mcp_dispatch_operation_policy_handler_is_suitable_finish ()">mcp_dispatch_operation_policy_handler_is_suitable_finish</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="McpDispatchOperationPolicy.html#mcp-dispatch-operation-policy-iface-implement-check" title="mcp_dispatch_operation_policy_iface_implement_check ()">mcp_dispatch_operation_policy_iface_implement_check</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="McpDispatchOperationPolicy.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="screen">    <a href="https://developer.gnome.org/gobject/unstable/GTypeModule.html">GInterface</a>
+    <span class="lineart">╰──</span> McpDispatchOperationPolicy
+</pre>
+</div>
+<div class="refsect1">
+<a name="McpDispatchOperationPolicy.includes"></a><h2>Includes</h2>
+<pre class="synopsis">#include &lt;mission-control-plugins/mission-control-plugins.h&gt;
+</pre>
+</div>
+<div class="refsect1">
+<a name="McpDispatchOperationPolicy.description"></a><h2>Description</h2>
+<p>Plugins may implement <a class="link" href="McpDispatchOperationPolicy.html" title="McpDispatchOperationPolicy"><span class="type">McpDispatchOperationPolicy</span></a> in order to apply policy
+to Telepathy channel dispatch operations passing through the Channel
+Dispatcher part of Mission Control. This interface behaves rather like the
+Observer clients in the Telepathy specification, and has access to the same
+information, but runs within the Mission Control process rather than being
+invoked over D-Bus.</p>
+<p>To do so, the plugin must implement a <a href="/usr/share/gtk-doc/html/gobjectgobject-The-Base-Object-Type.html#GObject-struct"><span class="type">GObject</span></a> subclass that implements
+<a class="link" href="McpDispatchOperationPolicy.html" title="McpDispatchOperationPolicy"><span class="type">McpDispatchOperationPolicy</span></a>, then return an instance of that subclass from
+<a class="link" href="mission-control-plugins-Plugin-loader-and-global-functions.html#mcp-plugin-ref-nth-object" title="mcp_plugin_ref_nth_object ()"><code class="function">mcp_plugin_ref_nth_object()</code></a>.</p>
+<p>A typical plugin might look like this:</p>
+<div class="example">
+<a name="id-1.5.2.6.5"></a><p class="title"><b>Example 3. </b></p>
+<div class="example-contents"><pre class="programlisting">
+G_DEFINE_TYPE_WITH_CODE (MyPlugin, my_plugin,
+   G_TYPE_OBJECT,
+   G_IMPLEMENT_INTERFACE (...);
+   G_IMPLEMENT_INTERFACE (MCP_TYPE_DISPATCH_OPERATION_POLICY,
+     cdo_policy_iface_init);
+   G_IMPLEMENT_INTERFACE (...))
+/* ... */
+static void
+cdo_policy_iface_init (McpDispatchOperationPolicyIface *iface,
+    gpointer unused G_GNUC_UNUSED)
+{
+  iface-&gt;check = my_plugin_check_cdo;
+  iface-&gt;handler_is_suitable_async = my_plugin_handler_is_suitable_async;
+  iface-&gt;handler_is_suitable_finish = my_plugin_handler_is_suitable_finish;
+}
+</pre></div>
+</div>
+<br class="example-break"><p>A single object can implement more than one interface; for instance, it
+may be useful to combine this interface with <a class="link" href="McpRequestPolicy.html" title="McpRequestPolicy"><span class="type">McpRequestPolicy</span></a>.</p>
+</div>
+<div class="refsect1">
+<a name="McpDispatchOperationPolicy.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="McpDispatchOperationPolicyCb"></a><h3>McpDispatchOperationPolicyCb ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+<span class="c_punctuation">(</span>*McpDispatchOperationPolicyCb<span class="c_punctuation">)</span> (<em class="parameter"><code><a class="link" href="McpDispatchOperationPolicy.html" title="McpDispatchOperationPolicy"><span class="type">McpDispatchOperationPolicy</span></a> *policy</code></em>,
+                                 <em class="parameter"><code><a class="link" href="McpDispatchOperation.html" title="McpDispatchOperation"><span class="type">McpDispatchOperation</span></a> *dispatch_operation</code></em>);</pre>
+<p>Signature of an implementation of <a class="link" href="McpDispatchOperationPolicy.html#mcp-dispatch-operation-policy-check" title="mcp_dispatch_operation_policy_check ()"><code class="function">mcp_dispatch_operation_policy_check()</code></a>.</p>
+<div class="refsect3">
+<a name="McpDispatchOperationPolicyCb.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>policy</p></td>
+<td class="parameter_description"><p>an implementation of this interface, provided by a plugin</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>dispatch_operation</p></td>
+<td class="parameter_description"><p>an object representing a dispatch operation, i.e.
+a bundle of channels being dispatched</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mcp-dispatch-operation-policy-check"></a><h3>mcp_dispatch_operation_policy_check ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+mcp_dispatch_operation_policy_check (<em class="parameter"><code><a class="link" href="McpDispatchOperationPolicy.html" title="McpDispatchOperationPolicy"><span class="type">McpDispatchOperationPolicy</span></a> *policy</code></em>,
+                                     <em class="parameter"><code><a class="link" href="McpDispatchOperation.html" title="McpDispatchOperation"><span class="type">McpDispatchOperation</span></a> *dispatch_operation</code></em>);</pre>
+<p>Check what to do with a bundle of channels. Implementations of this method
+can use methods on <em class="parameter"><code>dispatch_operation</code></em>
+ to examine the channels, delay
+dispatching, close the channels, etc. in order to impose whatever policy
+the plugin requires.</p>
+<p>Mission Control calls this function in each plugin after invoking
+Observers, but before Approvers, and without waiting for Observers to
+reply.</p>
+<div class="refsect3">
+<a name="mcp-dispatch-operation-policy-check.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>policy</p></td>
+<td class="parameter_description"><p>an implementation of this interface, provided by a plugin</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>dispatch_operation</p></td>
+<td class="parameter_description"><p>an object representing a dispatch operation, i.e.
+a bundle of channels being dispatched</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="McpDispatchOperationPolicyHandlerIsSuitableAsync"></a><h3>McpDispatchOperationPolicyHandlerIsSuitableAsync ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+<span class="c_punctuation">(</span>*McpDispatchOperationPolicyHandlerIsSuitableAsync<span class="c_punctuation">)</span>
+                               (<em class="parameter"><code><a class="link" href="McpDispatchOperationPolicy.html" title="McpDispatchOperationPolicy"><span class="type">McpDispatchOperationPolicy</span></a> *policy</code></em>,
+                                <em class="parameter"><code><a href="/usr/share/gtk-doc/html/telepathy-glibtelepathy-glib-client.html#TpClient-struct"><span class="type">TpClient</span></a> *handler</code></em>,
+                                <em class="parameter"><code>const <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *unique_name</code></em>,
+                                <em class="parameter"><code><a class="link" href="McpDispatchOperation.html" title="McpDispatchOperation"><span class="type">McpDispatchOperation</span></a> *dispatch_operation</code></em>,
+                                <em class="parameter"><code><a href="/usr/share/gtk-doc/html/gioGAsyncResult.html#GAsyncReadyCallback"><span class="type">GAsyncReadyCallback</span></a> callback</code></em>,
+                                <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gpointer"><span class="type">gpointer</span></a> user_data</code></em>);</pre>
+<p>Signature of <a class="link" href="McpDispatchOperationPolicy.html#mcp-dispatch-operation-policy-handler-is-suitable-async" title="mcp_dispatch_operation_policy_handler_is_suitable_async ()"><code class="function">mcp_dispatch_operation_policy_handler_is_suitable_async()</code></a></p>
+<div class="refsect3">
+<a name="McpDispatchOperationPolicyHandlerIsSuitableAsync.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>policy</p></td>
+<td class="parameter_description"><p>an implementation of this interface, provided by a plugin</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>handler</p></td>
+<td class="parameter_description"><p>a proxy for the Handler's D-Bus API, or <a href="/usr/share/gtk-doc/html/glibglib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if the Handler
+is calling Claim (so its well-known name is not immediately obvious)</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>unique_name</p></td>
+<td class="parameter_description"><p>The Handler's unique name, or empty or <a href="/usr/share/gtk-doc/html/glibglib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if it has not yet
+been started</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>dispatch_operation</p></td>
+<td class="parameter_description"><p>an object representing a dispatch operation, i.e.
+a bundle of channels being dispatched</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>callback</p></td>
+<td class="parameter_description"><p>callback to be called on success or failure</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>user data for the callback</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="McpDispatchOperationPolicyFinisher"></a><h3>McpDispatchOperationPolicyFinisher ()</h3>
+<pre class="programlisting"><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+<span class="c_punctuation">(</span>*McpDispatchOperationPolicyFinisher<span class="c_punctuation">)</span> (<em class="parameter"><code><a class="link" href="McpDispatchOperationPolicy.html" title="McpDispatchOperationPolicy"><span class="type">McpDispatchOperationPolicy</span></a> *policy</code></em>,
+                                       <em class="parameter"><code><a href="/usr/share/gtk-doc/html/gioGAsyncResult.html#GAsyncResult-struct"><span class="type">GAsyncResult</span></a> *result</code></em>,
+                                       <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glibglib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);</pre>
+<p>Signature of a virtual method used to finish an asynchronous operation
+that succeeds or fails, but does not return any additional value.</p>
+<div class="refsect3">
+<a name="McpDispatchOperationPolicyFinisher.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>policy</p></td>
+<td class="parameter_description"><p>an implementation of this interface, provided by a plugin</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>result</p></td>
+<td class="parameter_description"><p>the asynchronous result passed to a <a href="/usr/share/gtk-doc/html/gioGAsyncResult.html#GAsyncReadyCallback"><span class="type">GAsyncReadyCallback</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>error</p></td>
+<td class="parameter_description"><p> used to return an error. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="NULL is OK, both for passing and for returning."><span class="acronym">allow-none</span></acronym>]</span></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="McpDispatchOperationPolicyFinisher.returns"></a><h4>Returns</h4>
+<p> <a href="/usr/share/gtk-doc/html/glibglib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> if the operation succeeded, <a href="/usr/share/gtk-doc/html/glibglib-Standard-Macros.html#FALSE:CAPS"><code class="literal">FALSE</code></a> on error</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mcp-dispatch-operation-policy-handler-is-suitable-async"></a><h3>mcp_dispatch_operation_policy_handler_is_suitable_async ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+mcp_dispatch_operation_policy_handler_is_suitable_async
+                               (<em class="parameter"><code><a class="link" href="McpDispatchOperationPolicy.html" title="McpDispatchOperationPolicy"><span class="type">McpDispatchOperationPolicy</span></a> *policy</code></em>,
+                                <em class="parameter"><code><a href="/usr/share/gtk-doc/html/telepathy-glibtelepathy-glib-client.html#TpClient-struct"><span class="type">TpClient</span></a> *handler</code></em>,
+                                <em class="parameter"><code>const <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *unique_name</code></em>,
+                                <em class="parameter"><code><a class="link" href="McpDispatchOperation.html" title="McpDispatchOperation"><span class="type">McpDispatchOperation</span></a> *dispatch_operation</code></em>,
+                                <em class="parameter"><code><a href="/usr/share/gtk-doc/html/gioGAsyncResult.html#GAsyncReadyCallback"><span class="type">GAsyncReadyCallback</span></a> callback</code></em>,
+                                <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gpointer"><span class="type">gpointer</span></a> user_data</code></em>);</pre>
+<p>Check whether a handler is "suitable" for these channels. For instance,
+this could be used to ensure that only the platform's default UI can be
+used for particular channels, even if MC would normally consider
+a third-party UI to be a better match.</p>
+<p>Mission Control calls all implementations of this method in parallel
+and waits for them all to return. If any of them raises an error,
+the handler is considered to be unsuitable.</p>
+<div class="refsect3">
+<a name="mcp-dispatch-operation-policy-handler-is-suitable-async.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>policy</p></td>
+<td class="parameter_description"><p>an implementation of this interface, provided by a plugin</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>handler</p></td>
+<td class="parameter_description"><p>a proxy for the Handler's D-Bus API, or <a href="/usr/share/gtk-doc/html/glibglib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if the Handler
+is calling Claim (so its well-known name is not immediately obvious)</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>unique_name</p></td>
+<td class="parameter_description"><p>The Handler's unique name, or empty or <a href="/usr/share/gtk-doc/html/glibglib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if it has not yet
+been started</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>dispatch_operation</p></td>
+<td class="parameter_description"><p>an object representing a dispatch operation, i.e.
+a bundle of channels being dispatched</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>callback</p></td>
+<td class="parameter_description"><p>callback to be called on success or failure</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>user data for the callback</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mcp-dispatch-operation-policy-handler-is-suitable-finish"></a><h3>mcp_dispatch_operation_policy_handler_is_suitable_finish ()</h3>
+<pre class="programlisting"><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+mcp_dispatch_operation_policy_handler_is_suitable_finish
+                               (<em class="parameter"><code><a class="link" href="McpDispatchOperationPolicy.html" title="McpDispatchOperationPolicy"><span class="type">McpDispatchOperationPolicy</span></a> *policy</code></em>,
+                                <em class="parameter"><code><a href="/usr/share/gtk-doc/html/gioGAsyncResult.html#GAsyncResult-struct"><span class="type">GAsyncResult</span></a> *result</code></em>,
+                                <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glibglib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);</pre>
+<p>Finish a call to <a class="link" href="McpDispatchOperationPolicy.html#mcp-dispatch-operation-policy-handler-is-suitable-async" title="mcp_dispatch_operation_policy_handler_is_suitable_async ()"><code class="function">mcp_dispatch_operation_policy_handler_is_suitable_async()</code></a>.</p>
+<div class="refsect3">
+<a name="mcp-dispatch-operation-policy-handler-is-suitable-finish.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>policy</p></td>
+<td class="parameter_description"><p>an implementation of this interface, provided by a plugin</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>result</p></td>
+<td class="parameter_description"><p>the asynchronous result passed to the <a href="/usr/share/gtk-doc/html/gioGAsyncResult.html#GAsyncReadyCallback"><span class="type">GAsyncReadyCallback</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>error</p></td>
+<td class="parameter_description"><p> used to return an error. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="NULL is OK, both for passing and for returning."><span class="acronym">allow-none</span></acronym>]</span></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="mcp-dispatch-operation-policy-handler-is-suitable-finish.returns"></a><h4>Returns</h4>
+<p> <a href="/usr/share/gtk-doc/html/glibglib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> if the handler is suitable; <a href="/usr/share/gtk-doc/html/glibglib-Standard-Macros.html#FALSE:CAPS"><code class="literal">FALSE</code></a> if the handler is
+unsuitable or there was an error</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mcp-dispatch-operation-policy-iface-implement-check"></a><h3>mcp_dispatch_operation_policy_iface_implement_check ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+mcp_dispatch_operation_policy_iface_implement_check
+                               (<em class="parameter"><code><a href="/usr/share/gtk-doc/html/mission-control-pluginsmission-control-plugins-McpDispatchOperationPolicy.html#McpDispatchOperationPolicyIface"><span class="type">McpDispatchOperationPolicyIface</span></a> *iface</code></em>,
+                                <em class="parameter"><code><a class="link" href="McpDispatchOperationPolicy.html#McpDispatchOperationPolicyCb" title="McpDispatchOperationPolicyCb ()"><span class="type">McpDispatchOperationPolicyCb</span></a> impl</code></em>);</pre>
+<p>This method is no longer necessary: just set iface-&gt;check = impl instead.</p>
+<div class="refsect3">
+<a name="mcp-dispatch-operation-policy-iface-implement-check.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>iface</p></td>
+<td class="parameter_description"><p>the interface</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>impl</p></td>
+<td class="parameter_description"><p>an implementation of the virtual method
+<a class="link" href="McpDispatchOperationPolicy.html#mcp-dispatch-operation-policy-check" title="mcp_dispatch_operation_policy_check ()"><code class="function">mcp_dispatch_operation_policy_check()</code></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="refsect1">
+<a name="McpDispatchOperationPolicy.other_details"></a><h2>Types and Values</h2>
+</div>
+<div class="refsect1">
+<a name="McpDispatchOperationPolicy.see-also"></a><h2>See Also</h2>
+<p><a class="link" href="McpDispatchOperation.html" title="McpDispatchOperation"><span class="type">McpDispatchOperation</span></a></p>
+</div>
+</div>
+<div class="footer">
+<hr>Generated by GTK-Doc V1.25</div>
+</body>
+</html>

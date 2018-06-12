@@ -1,0 +1,688 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>McpAccountManager: Mission Control Plugins Reference Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
+<link rel="home" href="index.html" title="Mission Control Plugins Reference Manual">
+<link rel="up" href="ch02.html" title="Account storage">
+<link rel="prev" href="mission-control-plugins-McpAccountStorage.html" title="McpAccountStorage">
+<link rel="next" href="ch03.html" title="Channel requests">
+<meta name="generator" content="GTK-Doc V1.25 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#McpAccountManager.description" class="shortcut">Description</a></span><span id="nav_hierarchy">  <span class="dim">|</span> 
+                  <a href="#McpAccountManager.object-hierarchy" class="shortcut">Object Hierarchy</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="ch02.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="mission-control-plugins-McpAccountStorage.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="ch03.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="McpAccountManager"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="McpAccountManager.top_of_page"></a>McpAccountManager</span></h2>
+<p>McpAccountManager — Object representing the account manager, implemented
+   by Mission Control</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="McpAccountManager.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_return">
+<col class="functions_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="McpAccountManager.html#mcp-account-manager-set-value" title="mcp_account_manager_set_value ()">mcp_account_manager_set_value</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="McpAccountManager.html#mcp-account-manager-set-attribute" title="mcp_account_manager_set_attribute ()">mcp_account_manager_set_attribute</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="McpAccountManager.html#mcp-account-manager-set-parameter" title="mcp_account_manager_set_parameter ()">mcp_account_manager_set_parameter</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="McpAccountManager.html#mcp-account-manager-get-value" title="mcp_account_manager_get_value ()">mcp_account_manager_get_value</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="McpAccountManager.html#mcp-account-manager-parameter-is-secret" title="mcp_account_manager_parameter_is_secret ()">mcp_account_manager_parameter_is_secret</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="McpAccountManager.html#mcp-account-manager-parameter-make-secret" title="mcp_account_manager_parameter_make_secret ()">mcp_account_manager_parameter_make_secret</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="McpAccountManager.html#mcp-account-manager-get-unique-name" title="mcp_account_manager_get_unique_name ()">mcp_account_manager_get_unique_name</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="/usr/share/gtk-doc/html/glibglib-String-Utility-Functions.html#GStrv"><span class="returnvalue">GStrv</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="McpAccountManager.html#mcp-account-manager-list-keys" title="mcp_account_manager_list_keys ()">mcp_account_manager_list_keys</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="McpAccountManager.html#mcp-account-manager-escape-value-for-keyfile" title="mcp_account_manager_escape_value_for_keyfile ()">mcp_account_manager_escape_value_for_keyfile</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="McpAccountManager.html#mcp-account-manager-escape-variant-for-keyfile" title="mcp_account_manager_escape_variant_for_keyfile ()">mcp_account_manager_escape_variant_for_keyfile</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="McpAccountManager.html#mcp-account-manager-unescape-value-from-keyfile" title="mcp_account_manager_unescape_value_from_keyfile ()">mcp_account_manager_unescape_value_from_keyfile</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="McpAccountManager.html#mcp-account-manager-init-value-for-attribute" title="mcp_account_manager_init_value_for_attribute ()">mcp_account_manager_init_value_for_attribute</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="McpAccountManager.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="screen">    <a href="https://developer.gnome.org/gobject/unstable/GTypeModule.html">GInterface</a>
+    <span class="lineart">╰──</span> McpAccountManager
+</pre>
+</div>
+<div class="refsect1">
+<a name="McpAccountManager.includes"></a><h2>Includes</h2>
+<pre class="synopsis">#include &lt;mission-control-plugins/mission-control-plugins.h&gt;
+</pre>
+</div>
+<div class="refsect1">
+<a name="McpAccountManager.description"></a><h2>Description</h2>
+<p>This object represents the Telepathy AccountManager.</p>
+<p>Most virtual methods on the McpAccountStorageIface interface receive an
+object provided by Mission Control that implements this interface.
+It can be used to manipulate Mission Control's in-memory cache of accounts.</p>
+<p>Only Mission Control should implement this interface.</p>
+</div>
+<div class="refsect1">
+<a name="McpAccountManager.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="mcp-account-manager-set-value"></a><h3>mcp_account_manager_set_value ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+mcp_account_manager_set_value (<em class="parameter"><code>const <a class="link" href="McpAccountManager.html" title="McpAccountManager"><span class="type">McpAccountManager</span></a> *mcpa</code></em>,
+                               <em class="parameter"><code>const <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *account</code></em>,
+                               <em class="parameter"><code>const <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *key</code></em>,
+                               <em class="parameter"><code>const <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *value</code></em>);</pre>
+<p>Inform Mission Control that <em class="parameter"><code>key</code></em>
+ has changed its value to <em class="parameter"><code>value</code></em>
+.</p>
+<p>This function may either be called from <a class="link" href="mission-control-plugins-McpAccountStorage.html#mcp-account-storage-get" title="mcp_account_storage_get ()"><code class="function">mcp_account_storage_get()</code></a>,
+or just before emitting <span class="type">“altered-one”</span>.</p>
+<p>New plugins should call <a class="link" href="McpAccountManager.html#mcp-account-manager-set-attribute" title="mcp_account_manager_set_attribute ()"><code class="function">mcp_account_manager_set_attribute()</code></a> or
+<a class="link" href="McpAccountManager.html#mcp-account-manager-set-parameter" title="mcp_account_manager_set_parameter ()"><code class="function">mcp_account_manager_set_parameter()</code></a> instead.</p>
+<div class="refsect3">
+<a name="mcp-account-manager-set-value.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>mcpa</p></td>
+<td class="parameter_description"><p>an <a class="link" href="McpAccountManager.html" title="McpAccountManager"><span class="type">McpAccountManager</span></a> instance</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>account</p></td>
+<td class="parameter_description"><p>the unique name of an account</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>key</p></td>
+<td class="parameter_description"><p>the setting whose value we wish to change: either an attribute
+like "DisplayName", or "param-" plus a parameter like "account"</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>value</p></td>
+<td class="parameter_description"><p>the new value, escaped as if for a <a href="/usr/share/gtk-doc/html/glibglib-Key-value-file-parser.html#GKeyFile"><span class="type">GKeyFile</span></a>, or <a href="/usr/share/gtk-doc/html/glibglib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> to delete
+the setting/parameter</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mcp-account-manager-set-attribute"></a><h3>mcp_account_manager_set_attribute ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+mcp_account_manager_set_attribute (<em class="parameter"><code>const <a class="link" href="McpAccountManager.html" title="McpAccountManager"><span class="type">McpAccountManager</span></a> *mcpa</code></em>,
+                                   <em class="parameter"><code>const <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *account</code></em>,
+                                   <em class="parameter"><code>const <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *attribute</code></em>,
+                                   <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glibglib-GVariant.html#GVariant"><span class="type">GVariant</span></a> *value</code></em>,
+                                   <em class="parameter"><code><span class="type">McpAttributeFlags</span> flags</code></em>);</pre>
+<p>Inform Mission Control that <em class="parameter"><code>attribute</code></em>
+ has changed its value to <em class="parameter"><code>value</code></em>
+.</p>
+<p>If <em class="parameter"><code>value</code></em>
+ is a floating reference, Mission Control will take ownership
+of it, much like <a href="/usr/share/gtk-doc/html/glibglib-GVariant.html#g-variant-builder-add-value"><code class="function">g_variant_builder_add_value()</code></a>.</p>
+<p>This function may either be called from <a class="link" href="mission-control-plugins-McpAccountStorage.html#mcp-account-storage-get" title="mcp_account_storage_get ()"><code class="function">mcp_account_storage_get()</code></a>,
+or just before emitting <span class="type">“altered-one”</span>.</p>
+<div class="refsect3">
+<a name="mcp-account-manager-set-attribute.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>mcpa</p></td>
+<td class="parameter_description"><p>an <a class="link" href="McpAccountManager.html" title="McpAccountManager"><span class="type">McpAccountManager</span></a> instance</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>account</p></td>
+<td class="parameter_description"><p>the unique name of an account</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>attribute</p></td>
+<td class="parameter_description"><p>the name of an attribute, such as "DisplayName"</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>value</p></td>
+<td class="parameter_description"><p> the new value, or <a href="/usr/share/gtk-doc/html/glibglib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> to delete the attribute. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="NULL is OK, both for passing and for returning."><span class="acronym">allow-none</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>flags</p></td>
+<td class="parameter_description"><p>flags for the new value (only used if <em class="parameter"><code>value</code></em>
+is non-<a href="/usr/share/gtk-doc/html/glibglib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a>)</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mcp-account-manager-set-parameter"></a><h3>mcp_account_manager_set_parameter ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+mcp_account_manager_set_parameter (<em class="parameter"><code>const <a class="link" href="McpAccountManager.html" title="McpAccountManager"><span class="type">McpAccountManager</span></a> *mcpa</code></em>,
+                                   <em class="parameter"><code>const <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *account</code></em>,
+                                   <em class="parameter"><code>const <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *parameter</code></em>,
+                                   <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glibglib-GVariant.html#GVariant"><span class="type">GVariant</span></a> *value</code></em>,
+                                   <em class="parameter"><code><span class="type">McpParameterFlags</span> flags</code></em>);</pre>
+<p>Inform Mission Control that <em class="parameter"><code>parameter</code></em>
+ has changed its value to <em class="parameter"><code>value</code></em>
+.</p>
+<p>If <em class="parameter"><code>value</code></em>
+ is a floating reference, Mission Control will take ownership
+of it, much like <a href="/usr/share/gtk-doc/html/glibglib-GVariant.html#g-variant-builder-add-value"><code class="function">g_variant_builder_add_value()</code></a>.</p>
+<p>This function may either be called from <a class="link" href="mission-control-plugins-McpAccountStorage.html#mcp-account-storage-get" title="mcp_account_storage_get ()"><code class="function">mcp_account_storage_get()</code></a>,
+or just before emitting <span class="type">“altered-one”</span>.</p>
+<div class="refsect3">
+<a name="mcp-account-manager-set-parameter.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>mcpa</p></td>
+<td class="parameter_description"><p>an <a class="link" href="McpAccountManager.html" title="McpAccountManager"><span class="type">McpAccountManager</span></a> instance</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>account</p></td>
+<td class="parameter_description"><p>the unique name of an account</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>parameter</p></td>
+<td class="parameter_description"><p>the name of a parameter, such as "account", without
+the "param-" prefix</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>value</p></td>
+<td class="parameter_description"><p> the new value, or <a href="/usr/share/gtk-doc/html/glibglib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> to delete the parameter. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="NULL is OK, both for passing and for returning."><span class="acronym">allow-none</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>flags</p></td>
+<td class="parameter_description"><p>flags for the new value (only used if <em class="parameter"><code>value</code></em>
+is non-<a href="/usr/share/gtk-doc/html/glibglib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a>)</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mcp-account-manager-get-value"></a><h3>mcp_account_manager_get_value ()</h3>
+<pre class="programlisting"><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *
+mcp_account_manager_get_value (<em class="parameter"><code>const <a class="link" href="McpAccountManager.html" title="McpAccountManager"><span class="type">McpAccountManager</span></a> *mcpa</code></em>,
+                               <em class="parameter"><code>const <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *account</code></em>,
+                               <em class="parameter"><code>const <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *key</code></em>);</pre>
+<p>Fetch a copy of the current value of an account setting held by
+the account manager.</p>
+<div class="refsect3">
+<a name="mcp-account-manager-get-value.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>mcpa</p></td>
+<td class="parameter_description"><p>an <a class="link" href="McpAccountManager.html" title="McpAccountManager"><span class="type">McpAccountManager</span></a> instance</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>account</p></td>
+<td class="parameter_description"><p>the unique name of an account</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>key</p></td>
+<td class="parameter_description"><p>the setting whose value we wish to fetch: either an attribute
+like "DisplayName", or "param-" plus a parameter like "account"</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="mcp-account-manager-get-value.returns"></a><h4>Returns</h4>
+<p> the value of <em class="parameter"><code>key</code></em>
+. </p>
+<p><span class="annotation">[<acronym title="Free data after the code is done."><span class="acronym">transfer full</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mcp-account-manager-parameter-is-secret"></a><h3>mcp_account_manager_parameter_is_secret ()</h3>
+<pre class="programlisting"><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+mcp_account_manager_parameter_is_secret
+                               (<em class="parameter"><code>const <a class="link" href="McpAccountManager.html" title="McpAccountManager"><span class="type">McpAccountManager</span></a> *mcpa</code></em>,
+                                <em class="parameter"><code>const <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *account</code></em>,
+                                <em class="parameter"><code>const <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *key</code></em>);</pre>
+<p>Determine whether a given account parameter is secret.
+Generally this is determined by MC and passed down to plugins,
+but any <a class="link" href="mission-control-plugins-McpAccountStorage.html#McpAccountStorage" title="struct McpAccountStorage"><span class="type">McpAccountStorage</span></a> plugin may decide a parameter is
+secret, in which case the return value for this call will
+indicate that fact too.</p>
+<p>For historical reasons, this function only operates on parameters,
+but requires its argument to be prefixed with "param-".</p>
+<div class="refsect3">
+<a name="mcp-account-manager-parameter-is-secret.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>mcpa</p></td>
+<td class="parameter_description"><p>an <a class="link" href="McpAccountManager.html" title="McpAccountManager"><span class="type">McpAccountManager</span></a> instance</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>account</p></td>
+<td class="parameter_description"><p>the unique name of an account</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>key</p></td>
+<td class="parameter_description"><p>the constant string "param-", plus a parameter name like
+"account" or "password"</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="mcp-account-manager-parameter-is-secret.returns"></a><h4>Returns</h4>
+<p> <a href="/usr/share/gtk-doc/html/glibglib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> for secret settings, <a href="/usr/share/gtk-doc/html/glibglib-Standard-Macros.html#FALSE:CAPS"><code class="literal">FALSE</code></a> otherwise</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mcp-account-manager-parameter-make-secret"></a><h3>mcp_account_manager_parameter_make_secret ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+mcp_account_manager_parameter_make_secret
+                               (<em class="parameter"><code>const <a class="link" href="McpAccountManager.html" title="McpAccountManager"><span class="type">McpAccountManager</span></a> *mcpa</code></em>,
+                                <em class="parameter"><code>const <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *account</code></em>,
+                                <em class="parameter"><code>const <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *key</code></em>);</pre>
+<p>Flag an account setting as secret for the lifetime of this
+<a class="link" href="McpAccountManager.html" title="McpAccountManager"><span class="type">McpAccountManager</span></a>. For instance, this should be called if
+<em class="parameter"><code>key</code></em>
+ has been retrieved from gnome-keyring.</p>
+<p>For historical reasons, this function only operates on parameters,
+but requires its argument to be prefixed with "param-".</p>
+<div class="refsect3">
+<a name="mcp-account-manager-parameter-make-secret.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>mcpa</p></td>
+<td class="parameter_description"><p>an <a class="link" href="McpAccountManager.html" title="McpAccountManager"><span class="type">McpAccountManager</span></a> instance</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>account</p></td>
+<td class="parameter_description"><p>the unique name of an account</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>key</p></td>
+<td class="parameter_description"><p>the constant string "param-", plus a parameter name like
+"account" or "password"</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mcp-account-manager-get-unique-name"></a><h3>mcp_account_manager_get_unique_name ()</h3>
+<pre class="programlisting"><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *
+mcp_account_manager_get_unique_name (<em class="parameter"><code><a class="link" href="McpAccountManager.html" title="McpAccountManager"><span class="type">McpAccountManager</span></a> *mcpa</code></em>,
+                                     <em class="parameter"><code>const <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *manager</code></em>,
+                                     <em class="parameter"><code>const <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *protocol</code></em>,
+                                     <em class="parameter"><code>const <a href="/usr/share/gtk-doc/html/glibglib-Hash-Tables.html#GHashTable"><span class="type">GHashTable</span></a> *params</code></em>);</pre>
+<p>Generate and return the canonical unique name of this [new] account.
+Should not be called for accounts which have already had a name
+assigned: Intended for use when a plugin encounters an account which
+MC has not previously seen before (ie one created by a 3rd party
+in the back-end that the plugin in question provides an interface to).</p>
+<div class="refsect3">
+<a name="mcp-account-manager-get-unique-name.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>mcpa</p></td>
+<td class="parameter_description"><p>an <a class="link" href="McpAccountManager.html" title="McpAccountManager"><span class="type">McpAccountManager</span></a> instance</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>manager</p></td>
+<td class="parameter_description"><p>the name of the manager</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>protocol</p></td>
+<td class="parameter_description"><p>the name of the protocol</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>params</p></td>
+<td class="parameter_description"><p>A gchar * / GValue * hash table of account parameters.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="mcp-account-manager-get-unique-name.returns"></a><h4>Returns</h4>
+<p> the newly allocated account name, which should be freed
+once the caller is done with it.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mcp-account-manager-list-keys"></a><h3>mcp_account_manager_list_keys ()</h3>
+<pre class="programlisting"><a href="/usr/share/gtk-doc/html/glibglib-String-Utility-Functions.html#GStrv"><span class="returnvalue">GStrv</span></a>
+mcp_account_manager_list_keys (<em class="parameter"><code>const <a class="link" href="McpAccountManager.html" title="McpAccountManager"><span class="type">McpAccountManager</span></a> *mcpa</code></em>,
+                               <em class="parameter"><code>const <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *account</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mcp-account-manager-escape-value-for-keyfile"></a><h3>mcp_account_manager_escape_value_for_keyfile ()</h3>
+<pre class="programlisting"><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *
+mcp_account_manager_escape_value_for_keyfile
+                               (<em class="parameter"><code>const <a class="link" href="McpAccountManager.html" title="McpAccountManager"><span class="type">McpAccountManager</span></a> *mcpa</code></em>,
+                                <em class="parameter"><code>const <a href="/usr/share/gtk-doc/html/gobjectgobject-Generic-values.html#GValue"><span class="type">GValue</span></a> *value</code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mcp-account-manager-escape-variant-for-keyfile"></a><h3>mcp_account_manager_escape_variant_for_keyfile ()</h3>
+<pre class="programlisting"><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *
+mcp_account_manager_escape_variant_for_keyfile
+                               (<em class="parameter"><code>const <a class="link" href="McpAccountManager.html" title="McpAccountManager"><span class="type">McpAccountManager</span></a> *mcpa</code></em>,
+                                <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glibglib-GVariant.html#GVariant"><span class="type">GVariant</span></a> *variant</code></em>);</pre>
+<p>Escape <em class="parameter"><code>variant</code></em>
+ so it could be passed to <a href="/usr/share/gtk-doc/html/glibglib-Key-value-file-parser.html#g-key-file-set-value"><code class="function">g_key_file_set_value()</code></a>.
+For instance, escaping the boolean value TRUE returns "true",
+and escaping the string value containing one space returns "\s".</p>
+<p>It is a programming error to use an unsupported type.
+The supported types are currently <a href="/usr/share/gtk-doc/html/glibglib-GVariantType.html#G-VARIANT-TYPE-STRING:CAPS"><code class="literal">G_VARIANT_TYPE_STRING</code></a>,
+<a href="/usr/share/gtk-doc/html/glibglib-GVariantType.html#G-VARIANT-TYPE-BOOLEAN:CAPS"><code class="literal">G_VARIANT_TYPE_BOOLEAN</code></a>, <a href="/usr/share/gtk-doc/html/glibglib-GVariantType.html#G-VARIANT-TYPE-INT32:CAPS"><code class="literal">G_VARIANT_TYPE_INT32</code></a>, <a href="/usr/share/gtk-doc/html/glibglib-GVariantType.html#G-VARIANT-TYPE-UINT32:CAPS"><code class="literal">G_VARIANT_TYPE_UINT32</code></a>,
+<a href="/usr/share/gtk-doc/html/glibglib-GVariantType.html#G-VARIANT-TYPE-INT64:CAPS"><code class="literal">G_VARIANT_TYPE_INT64</code></a>, <a href="/usr/share/gtk-doc/html/glibglib-GVariantType.html#G-VARIANT-TYPE-UINT64:CAPS"><code class="literal">G_VARIANT_TYPE_UINT64</code></a>, <a href="/usr/share/gtk-doc/html/glibglib-GVariantType.html#G-VARIANT-TYPE-BYTE:CAPS"><code class="literal">G_VARIANT_TYPE_BYTE</code></a>,
+<a href="/usr/share/gtk-doc/html/glibglib-GVariantType.html#G-VARIANT-TYPE-STRING-ARRAY:CAPS"><code class="literal">G_VARIANT_TYPE_STRING_ARRAY</code></a>, <a href="/usr/share/gtk-doc/html/glibglib-GVariantType.html#G-VARIANT-TYPE-OBJECT-PATH:CAPS"><code class="literal">G_VARIANT_TYPE_OBJECT_PATH</code></a> and
+<a href="/usr/share/gtk-doc/html/glibglib-GVariantType.html#G-VARIANT-TYPE-OBJECT-PATH-ARRAY:CAPS"><code class="literal">G_VARIANT_TYPE_OBJECT_PATH_ARRAY</code></a>.</p>
+<div class="refsect3">
+<a name="mcp-account-manager-escape-variant-for-keyfile.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>mcpa</p></td>
+<td class="parameter_description"><p>a <a class="link" href="McpAccountManager.html" title="McpAccountManager"><span class="type">McpAccountManager</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>variant</p></td>
+<td class="parameter_description"><p>a <a href="/usr/share/gtk-doc/html/glibglib-GVariant.html#GVariant"><span class="type">GVariant</span></a> with a supported <a href="/usr/share/gtk-doc/html/glibglib-GVariantType.html#GVariantType"><span class="type">GVariantType</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="mcp-account-manager-escape-variant-for-keyfile.returns"></a><h4>Returns</h4>
+<p> the escaped form of <em class="parameter"><code>variant</code></em>
+. </p>
+<p><span class="annotation">[<acronym title="Free data after the code is done."><span class="acronym">transfer full</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mcp-account-manager-unescape-value-from-keyfile"></a><h3>mcp_account_manager_unescape_value_from_keyfile ()</h3>
+<pre class="programlisting"><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+mcp_account_manager_unescape_value_from_keyfile
+                               (<em class="parameter"><code>const <a class="link" href="McpAccountManager.html" title="McpAccountManager"><span class="type">McpAccountManager</span></a> *mcpa</code></em>,
+                                <em class="parameter"><code>const <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *escaped</code></em>,
+                                <em class="parameter"><code><a href="/usr/share/gtk-doc/html/gobjectgobject-Generic-values.html#GValue"><span class="type">GValue</span></a> *value</code></em>,
+                                <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glibglib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);</pre>
+<p>Attempt to interpret <em class="parameter"><code>escaped</code></em>
+ as a value of <em class="parameter"><code>value</code></em>
+'s type.
+If successful, put it in <em class="parameter"><code>value</code></em>
+ and return <a href="/usr/share/gtk-doc/html/glibglib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a>.</p>
+<p>It is a programming error to try to escape an unsupported type.
+The supported types are currently <a href="/usr/share/gtk-doc/html/gobjectgobject-Type-Information.html#G-TYPE-STRING:CAPS"><code class="literal">G_TYPE_STRING</code></a>, <a href="/usr/share/gtk-doc/html/gobjectgobject-Type-Information.html#G-TYPE-BOOLEAN:CAPS"><code class="literal">G_TYPE_BOOLEAN</code></a>,
+<a href="/usr/share/gtk-doc/html/gobjectgobject-Type-Information.html#G-TYPE-INT:CAPS"><code class="literal">G_TYPE_INT</code></a>, <a href="/usr/share/gtk-doc/html/gobjectgobject-Type-Information.html#G-TYPE-UINT:CAPS"><code class="literal">G_TYPE_UINT</code></a>, <a href="/usr/share/gtk-doc/html/gobjectgobject-Type-Information.html#G-TYPE-INT64:CAPS"><code class="literal">G_TYPE_INT64</code></a>, <a href="/usr/share/gtk-doc/html/gobjectgobject-Type-Information.html#G-TYPE-UINT64:CAPS"><code class="literal">G_TYPE_UINT64</code></a>, <a href="/usr/share/gtk-doc/html/gobjectgobject-Type-Information.html#G-TYPE-UCHAR:CAPS"><code class="literal">G_TYPE_UCHAR</code></a>,
+<a href="/usr/share/gtk-doc/html/gobjectgobject-Boxed-Types.html#G-TYPE-STRV:CAPS"><code class="literal">G_TYPE_STRV</code></a>, <a href="/usr/share/gtk-doc/html/dbus-glibdbus-glib-Specializable-GType-System.html#DBUS-TYPE-G-OBJECT-PATH:CAPS"><code class="literal">DBUS_TYPE_G_OBJECT_PATH</code></a> and <a href="/usr/share/gtk-doc/html/telepathy-glibtelepathy-glib-gtypes.html#TP-ARRAY-TYPE-OBJECT-PATH-LIST:CAPS"><code class="literal">TP_ARRAY_TYPE_OBJECT_PATH_LIST</code></a>.</p>
+<div class="refsect3">
+<a name="mcp-account-manager-unescape-value-from-keyfile.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>mcpa</p></td>
+<td class="parameter_description"><p>a <a class="link" href="McpAccountManager.html" title="McpAccountManager"><span class="type">McpAccountManager</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>escaped</p></td>
+<td class="parameter_description"><p>an escaped string as returned by <a href="/usr/share/gtk-doc/html/glibglib-Key-value-file-parser.html#g-key-file-get-value"><code class="function">g_key_file_get_value()</code></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>value</p></td>
+<td class="parameter_description"><p>a value to populate, with a supported <a href="/usr/share/gtk-doc/html/gobjectgobject-Type-Information.html#GType"><span class="type">GType</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>error</p></td>
+<td class="parameter_description"><p>used to raise an error if <a href="/usr/share/gtk-doc/html/glibglib-Standard-Macros.html#FALSE:CAPS"><code class="literal">FALSE</code></a> is returned</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="mcp-account-manager-unescape-value-from-keyfile.returns"></a><h4>Returns</h4>
+<p> <a href="/usr/share/gtk-doc/html/glibglib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> if <em class="parameter"><code>value</code></em>
+was filled in</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mcp-account-manager-init-value-for-attribute"></a><h3>mcp_account_manager_init_value_for_attribute ()</h3>
+<pre class="programlisting"><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+mcp_account_manager_init_value_for_attribute
+                               (<em class="parameter"><code>const <a class="link" href="McpAccountManager.html" title="McpAccountManager"><span class="type">McpAccountManager</span></a> *mcpa</code></em>,
+                                <em class="parameter"><code><a href="/usr/share/gtk-doc/html/gobjectgobject-Generic-values.html#GValue"><span class="type">GValue</span></a> *value</code></em>,
+                                <em class="parameter"><code>const <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *attribute</code></em>);</pre>
+<p>If <em class="parameter"><code>attribute</code></em>
+ is a known Mission Control attribute, initialize <em class="parameter"><code>value</code></em>
+
+with an appropriate type for <em class="parameter"><code>attribute</code></em>
+ and return <a href="/usr/share/gtk-doc/html/glibglib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a>. Otherwise,
+return <a href="/usr/share/gtk-doc/html/glibglib-Standard-Macros.html#FALSE:CAPS"><code class="literal">FALSE</code></a>.</p>
+<div class="refsect3">
+<a name="mcp-account-manager-init-value-for-attribute.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>mcpa</p></td>
+<td class="parameter_description"><p>a <a class="link" href="McpAccountManager.html" title="McpAccountManager"><span class="type">McpAccountManager</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>value</p></td>
+<td class="parameter_description"><p>a zero-filled value to initialize</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>attribute</p></td>
+<td class="parameter_description"><p>a supported Mission Control attribute</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="mcp-account-manager-init-value-for-attribute.returns"></a><h4>Returns</h4>
+<p> <a href="/usr/share/gtk-doc/html/glibglib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> if <em class="parameter"><code>value</code></em>
+was initialized</p>
+</div>
+</div>
+</div>
+<div class="refsect1">
+<a name="McpAccountManager.other_details"></a><h2>Types and Values</h2>
+</div>
+<div class="refsect1">
+<a name="McpAccountManager.see-also"></a><h2>See Also</h2>
+<p><a class="link" href="mission-control-plugins-McpAccountStorage.html#McpAccountStorage" title="struct McpAccountStorage"><span class="type">McpAccountStorage</span></a></p>
+</div>
+</div>
+<div class="footer">
+<hr>Generated by GTK-Doc V1.25</div>
+</body>
+</html>
